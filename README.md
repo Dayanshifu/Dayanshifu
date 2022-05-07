@@ -1,5 +1,7 @@
 # About ME
 
+<a href="https://www.littleyan.tk/"><img src="https://cdn.jsdelivr.net/gh/Dayanshifu/imagebed@main/img/logo.png" style="width:128px; height:128px; border-radius:50%;overflow:hidden;"/></a>
+
 I love PROGRAMMING ! PROGRAMMING makes me NB!
 
 ## How to find ME?
@@ -17,5 +19,3 @@ I love PROGRAMMING ! PROGRAMMING makes me NB!
 <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=3617406701">QQ:</a>3617406701
 
 <a href="mailto:dayanshifu@outlook.com">Mail:</a>dayanshifu@outlook.com
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dayanshifu&layout=compact)](https://github.com/Dayanshifu)
