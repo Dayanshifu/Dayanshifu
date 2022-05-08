@@ -3,7 +3,6 @@
 I love PROGRAMMING ! PROGRAMMING makes me NB!
 
 - 🔭 I’m currently working on nothing 😆
-- 
 - 🌱 我正在学习python,html,css,js
 
 - 📫## How to find ME?
