@@ -1,4 +1,4 @@
-<a href="https://www.littleyan.tk/"><img src="https://cdn.jsdelivr.net/gh/Dayanshifu/imagebed@main/img/logo.png"/></a>
+<a href="https://www.littleyan.tk/"><img src="https://fastly.jsdelivr.net/gh/Dayanshifu/imagebed@main/img/logo.png"/></a>
 
 I love PROGRAMMING ! PROGRAMMING makes me NB!
 
