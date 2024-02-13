@@ -48,29 +48,10 @@
   " fill="#FFF" font-family="Courier New"  font-size="16">}</text>  
   <text x="130" y="680
   " fill="#FFF" font-family="Courier New"  font-size="16">}</text>  
-  <text x="30" y="700
-  " fill="#FFF" font-family="Courier New"  font-size="16">In [5]: getCountdown2(GANSUZHONGKAO)</text>
-  <text id="countdownText" x="30" y="720
-  " fill="#FFF" font-family="Courier New"  font-size="16">Out [5]: 114514</text>
   <text x="30" y="740
-  " fill="#FFF" font-family="Courier New"  font-size="16">In [6]: </text>
+  " fill="#FFF" font-family="Courier New"  font-size="16">In [5]: </text>
   <text x="100" y="740
   " fill="#FFF" id='cursor' font-family="Courier New"  font-size="16">|</text>
-  <script><![CDATA[
-var examDate = new Date("2024-06-16T00:00:00");  
-function updateCountdown() {  
-  var now = new Date();  
-  var distance = examDate - now;  
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));  
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));  
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));  
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);  
-  var countdownText = "Out [5]: "+days + "d" + hours + "h" + minutes + "min" + seconds + "s";  
-  var countdownTextElement = document.getElementById("countdownText");  
-  countdownTextElement.textContent = countdownText;  
-}  
-setInterval(updateCountdown, 1000);
-  ]]></script>
 <!-- 
        　　▃▆█▇▄▖
 　 　 　 ▟◤▖　　◥█▎
