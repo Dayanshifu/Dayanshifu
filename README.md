@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <a href="#">
          <img src="1.svg" width="100%" height="700px" alt="诶……刷新试试？"/>
 </a>
 =======
+=======
+>>>>>>> 71393cd5211d1e2e91d9bcc0f8d80e9eb39b61ce
 In [1]: let Dayanshifu = EntityFactory.getEntity('Dayanshifu')
 0ut [1]: [Entity: Dayanshifu] 
           <img src='https://avatars.githubusercontent.com/u/89624700'   style='border-radius:96px'width='128px' height='128px'/>
@@ -24,4 +27,7 @@ Out [4]: {'hao-littleyan': {
             }
           }
 In [5]:
+<<<<<<< HEAD
+>>>>>>> 71393cd5211d1e2e91d9bcc0f8d80e9eb39b61ce
+=======
 >>>>>>> 71393cd5211d1e2e91d9bcc0f8d80e9eb39b61ce
