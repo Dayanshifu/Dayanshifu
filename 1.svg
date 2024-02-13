@@ -1,0 +1,89 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg" fill='#000' style="background-color:#000"> 
+
+  <style>  
+    @keyframes blink {  
+      0%, 100% {  
+        opacity: 0; 
+      }  
+      50% {  
+        opacity: 1;  
+      }  
+    }  
+    #cursor {  
+      animation: blink 1s steps(1) infinite; 
+    }  
+  </style>  
+  <text x="30" y="30" fill="#FFF" font-family="Courier New"  font-size="16">In [1]: let Dayanshifu = EntityFactory.getEntity('Dayanshifu')</text>    
+  <text x="30" y="50" fill="#FFF" font-family="Courier New"  font-size="16">0ut [1]: [Entity: Dayanshifu] </text>    
+  <foreignObject x="120" y="60" width="128" height="128"><div xmlns="http://www.w3.org/1999/xhtml"><img src='https://avatars.githubusercontent.com/u/89624700' style='border-radius:96px' width='128px' height='128px'/></div></foreignObject>
+  <text x="120" y="210" fill="#FFF" font-family="Courier New"  font-size="16">Hello! </text>   
+  <text x="30" y="230
+  " fill="#FFF" font-family="Courier New"  font-size="16">In [2]: Dayanshifu.github</text>  
+  <text x="30" y="250
+  " fill="#FFF" font-family="Courier New"  font-size="16">0ut [2]: </text>  
+  <foreignObject x="120" y="240" width="550" height="180"><div xmlns="http://www.w3.org/1999/xhtml"><img src='https://stats.deeptrain.net/user/Dayanshifu?t=20230906' width='550px' style='border-radius:12px' alt='code-stats'/></div></foreignObject>
+  <text x="30" y="440
+  " fill="#FFF" font-family="Courier New"  font-size="16">In [3]: Dayanshifu.like</text>  
+  <text x="30" y="460
+  " fill="#FFF" font-family="Courier New"  font-size="16">Out [3]: [{'Frontend/App | Backend':  </text>  
+  <text x="166" y="480
+  " fill="#FFF" font-family="Courier New"  font-size="16">            ['Native html/css/js', 'Python|Tk', 'Scratch']}, </text>  
+  <text x="166" y="500
+  " fill="#FFF" font-family="Courier New"  font-size="16">'Linux Ubuntu|Arch', 'Hardware']</text>  
+  <text x="30" y="520
+  " fill="#FFF" font-family="Courier New"  font-size="16">In [4]: Dayanshifu.Site()</text>  
+  <text x="30" y="540
+  " fill="#FFF" font-family="Courier New"  font-size="16">Out [4]: *Web server started at: 'https://dayanshifu.github.io'</text>  
+  <text x="30" y="560
+  " fill="#FFF" font-family="Courier New"  font-size="16">In [4]: Dayanshifu.work</text>  
+  <text x="30" y="580
+  " fill="#FFF" font-family="Courier New"  font-size="16">Out [4]: {'hao-littleyan': {</text>  
+  <text x="166" y="600
+  " fill="#FFF" font-family="Courier New"  font-size="16">            'Description': '👏一个简洁方便的浏览器首页',</text>  
+  <text x="166" y="620
+  " fill="#FFF" font-family="Courier New"  font-size="16">'Github': 'https://github.com/Dayanshifu/hao-littleyan',</text>  
+  <text x="166" y="640
+    " fill="#FFF" font-family="Courier New"  font-size="16">'Site': 'https://dayanshifu.github.io/hao-littleyan/',</text>
+  <text x="166" y="660
+  " fill="#FFF" font-family="Courier New"  font-size="16">}</text>  
+  <text x="130" y="680
+  " fill="#FFF" font-family="Courier New"  font-size="16">}</text>  
+  <text x="30" y="700
+  " fill="#FFF" font-family="Courier New"  font-size="16">In [5]: getCountdown2(GANSUZHONGKAO)</text>
+  <text id="countdownText" x="30" y="720
+  " fill="#FFF" font-family="Courier New"  font-size="16">Out [5]: 114514</text>
+  <text x="30" y="740
+  " fill="#FFF" font-family="Courier New"  font-size="16">In [6]: </text>
+  <text x="100" y="740
+  " fill="#FFF" id='cursor' font-family="Courier New"  font-size="16">|</text>
+  <script><![CDATA[
+var examDate = new Date("2024-06-16T00:00:00");  
+function updateCountdown() {  
+  var now = new Date();  
+  var distance = examDate - now;  
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));  
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));  
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));  
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);  
+  var countdownText = "Out [5]: "+days + "d" + hours + "h" + minutes + "min" + seconds + "s";  
+  var countdownTextElement = document.getElementById("countdownText");  
+  countdownTextElement.textContent = countdownText;  
+}  
+setInterval(updateCountdown, 1000);
+  ]]></script>
+<!-- 
+       　　▃▆█▇▄▖
+　 　 　 ▟◤▖　　◥█▎
+   　 ◢◤　 ▐　　　 ▐▉
+　 ▗◤　  ▂　▗▖　　 █▎
+　◤　▗▅▖◥▄　▀◣　　█▊
+▐　▕▎◥▖◣◤　　　◢██
+█◣　◥▅█▀　　　　▐██◤
+▐█▙▂　　     ◢██◤
+◥██◣　　　◢▄◤
+ 　　▀██▅▇▀
+
+
+哲学♂ 114514。
+-->
+</svg>
