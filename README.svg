@@ -15,13 +15,13 @@
   </style>  
   <text x="30" y="30" fill="#FFF" font-family="Courier New"  font-size="16">In [1]: let Dayanshifu = EntityFactory.getEntity('Dayanshifu')</text>    
   <text x="30" y="50" fill="#FFF" font-family="Courier New"  font-size="16">0ut [1]: [Entity: Dayanshifu] </text>    
-  <image href='https://avatars.githubusercontent.com/u/89624700' x='120' y='60' width='128px' height='128px'></image>
+  <image href='avator.png' x='120' y='60' width='128px' height='128px'></image>
   <text x="120" y="210" fill="#FFF" font-family="Courier New"  font-size="16">Hello! </text>   
   <text x="30" y="230
   " fill="#FFF" font-family="Courier New"  font-size="16">In [2]: Dayanshifu.github</text>  
   <text x="30" y="250
   " fill="#FFF" font-family="Courier New"  font-size="16">0ut [2]: </text>  
-  <image href='https://stats.deeptrain.net/user/Dayanshifu?t=20230906' x='120' y='240' width='550px' height='180px'></image>
+  <image href='gh.svg' x='120' y='240' width='550px' height='180px'></image>
   <text x="30" y="440
   " fill="#FFF" font-family="Courier New"  font-size="16">In [3]: Dayanshifu.like</text>  
   <text x="30" y="460
@@ -48,10 +48,29 @@
   " fill="#FFF" font-family="Courier New"  font-size="16">}</text>  
   <text x="130" y="680
   " fill="#FFF" font-family="Courier New"  font-size="16">}</text>  
+  <text x="30" y="700
+  " fill="#FFF" font-family="Courier New"  font-size="16">In [5]: getCountdown2(GANSUZHONGKAO)</text>
+  <text id="countdownText" x="30" y="720
+  " fill="#FFF" font-family="Courier New"  font-size="16">Out [5]: 114514</text>
   <text x="30" y="740
-  " fill="#FFF" font-family="Courier New"  font-size="16">In [5]: </text>
+  " fill="#FFF" font-family="Courier New"  font-size="16">In [6]: </text>
   <text x="100" y="740
   " fill="#FFF" id='cursor' font-family="Courier New"  font-size="16">|</text>
+  <script><![CDATA[
+var examDate = new Date("2024-06-16T00:00:00");  
+function updateCountdown() {  
+  var now = new Date();  
+  var distance = examDate - now;  
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));  
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));  
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));  
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);  
+  var countdownText = "Out [5]: "+days + "d" + hours + "h" + minutes + "min" + seconds + "s";  
+  var countdownTextElement = document.getElementById("countdownText");  
+  countdownTextElement.textContent = countdownText;  
+}  
+setInterval(updateCountdown, 1000);
+  ]]></script>
 <!-- 
        　　▃▆█▇▄▖
 　 　 　 ▟◤▖　　◥█▎
