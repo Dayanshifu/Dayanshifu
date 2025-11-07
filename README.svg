@@ -1,4 +1,4 @@
-<svg width="760" height="800"
+<svg width="862" height="800"
     xmlns="http://www.w3.org/2000/svg" fill='#000' style="background-color:#000">
     <style>@keyframes blink {0%, 100% {opacity: 0;}50% {opacity: 1;}}#cursor {animation: blink 1s steps(1) infinite;}</style>
     <text x="30" y="30" fill="#FFF" font-family="Courier New"  font-size="16">  In [1]: ‎ let Dayanshifu = EntityFactory.getEntity('Dayanshifu')
@@ -26,19 +26,25 @@
     </text>
     <text x="30" y="540" fill="#FFF" font-family="Courier New"  font-size="16"> In [5]: ‎ Dayanshifu.works()
     </text>
-    <text x="30" y="560" fill="#FFF" font-family="Courier New"  font-size="16"> Out [5]: {'hao-littleyan': {
+    <text x="30" y="560" fill="#FFF" font-family="Courier New"  font-size="16"> Out [5]: {'home': {
     </text>
     <text x="166" y="580" fill="#FFF" font-family="Courier New"  font-size="16">            'Description': '👏一个简洁方便的浏览器首页',
     </text>
     <text x="166" y="600" fill="#FFF" font-family="Courier New"  font-size="16">            'Github': 'https://github.com/Dayanshifu/home',
     </text>
-    <text x="166" y="620" fill="#FFF" font-family="Courier New"  font-size="16">            'Site': 'https://home.lolicon.xin',
+    <text x="166" y="620" fill="#FFF" font-family="Courier New"  font-size="16">            },
     </text>
-    <text x="166" y="640" fill="#FFF" font-family="Courier New"  font-size="16">            }
+    <text x="126" y="640" fill="#FFF" font-family="Courier New"  font-size="16">           'astrbot_plugin_dailyacmfortune': {
     </text>
-    <text x="130" y="660" fill="#FFF" font-family="Courier New"  font-size="16">          }
+    <text x="166" y="660" fill="#FFF" font-family="Courier New"  font-size="16">            'Description': '洛谷运势生成',
     </text>
-    <text x="30" y="680" fill="#FFF" font-family="Courier New"  font-size="16">In [6]: 
+    <text x="166" y="680" fill="#FFF" font-family="Courier New"  font-size="16">            'Github': 'https://github.com/Dayanshifu/astrbot_plugin_dailyacmfortune',
     </text>
-    <text x="112" y="680" fill="#FFF" id='cursor' font-family="Courier New"  font-size="16">|</text>
+    <text x="166" y="700" fill="#FFF" font-family="Courier New"  font-size="16">            }
+    </text>
+    <text x="130" y="720" fill="#FFF" font-family="Courier New"  font-size="16">          }
+    </text>
+    <text x="30" y="740" fill="#FFF" font-family="Courier New"  font-size="16">In [6]: 
+    </text>
+    <text x="112" y="740" fill="#FFF" id='cursor' font-family="Courier New"  font-size="16">|</text>
 </svg>
